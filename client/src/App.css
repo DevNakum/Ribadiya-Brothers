@@ -61,7 +61,7 @@ body {
   margin-bottom: 30px;
 }
 
-.btn {
+.sbtn {
   background: rgba(0, 0, 0, 0.37);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   border-radius: 2rem;
@@ -89,5 +89,26 @@ body {
 .container-1 {
   background: whitesmoke;
   padding-left: 10%;
-  padding-right: 10%;
+  padding-right: 5%;
+ 
 }
+
+.ms-auto {
+  gap: 3rem; 
+  align-items: center;
+}
+
+/* .btn-1 {
+  width: 4vw;
+  height: 4vh;
+  border: 1px solid gray;
+  color: gray;
+  background: none;
+  border-radius: 60px;
+  cursor: pointer;
+  transition: 0.3s;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+} */
