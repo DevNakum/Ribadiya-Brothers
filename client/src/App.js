@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { Routes, Route, Navigate } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -12,8 +13,8 @@ import Home from './components/Home';
 function App() {
   return (
     <div>
-      <Navbar/>
-      {/* <Login/> */}
+      {/* <Navbar/> */}
+      <Login/>
       {/* <Registration/> */}
       <Home/>
       <Routes>
